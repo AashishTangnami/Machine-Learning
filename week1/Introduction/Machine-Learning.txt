@@ -1,4 +1,9 @@
+
 What is Machine Learning?
+
+
+Machine Learning  uses a variety of algorithms that iteratively learn from data to improve, describe data, and predict outcomes.
+As the alogrithms ingest training data, it is then possible to produce more precise models based on that data. A Machine learning model is the output generated when you train your machine learning algorithm with data. 
     
 1. According to Aurthur Samuel- Machine learning is the field of study that gives computers the ability to learn without being explicitly learning.
 2. According to Tom Mitchell- Computer program is said to learn from experience "E" with respect to some task "T" and some performance measure "P".
