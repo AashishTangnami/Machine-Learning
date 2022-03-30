@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<h3>
+    Linear Regression with one variable- Gradient Descent.
+</h3>
+<p>
+    Gradient Descent for minimizing cost function of an arbitrary function J.
+</p><br>
+<p>
+    Once we have hypothesis function to measure how well the function fits into the data, 
+    we need to estimate the parameteres in the hypothesis function.
+    Thus, gradient descent is used in such cases.
+    </p>
+
+    <br>
+    <p>
+
+
+        We put θ0 in the x-axis and θ1 in the y-axis. with the cost function on the vertical z-axis.
+        The points on our graph will be the result of the cost function using our hypothesis with those specific theta parameters.
+
+        The graph below depicts such a setup.<br>
+        <img src="../../pictures/gradient descent.png" alt="">
+    <br>
+    The result we get is succeed when our cost function is at the very bottom of the pits in our graph, i.e when its value is the minimum. 
+    the red arrows show the minimum point in the graph.
+    <br>
+    The way we do this is by taking the derivative (the tangential line to a function) of our cost function.
+    The slope of the tangent is the derivative at that point and it will give us a direction to move towards.
+    We make steps down the cost function in the direction with the steepest descent.
+    The size of each step is determined by the parameter α, which is called the learning rate.
+    
+    For example, the distance between each 'star', in the graph above represents a step determined by our parameter α, A samller α would result in a samller step and a larger α results larger step.
+    The direction in which the step is taken is determined by the partial derivateive of J(θ0,θ1). Depending on where one starts on the graph, one could end up at different points. The image above shows us two different starting points that endup in two different places.
+    </p>
+    <br>
+    <img src="../../pictures/gradient algo.png" alt=""> <br>
+    <img src="../../pictures/correct incorrect.png" alt="">
+
+</html>
