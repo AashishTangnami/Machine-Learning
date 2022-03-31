@@ -1,0 +1,12 @@
+Matrices are two-dimensional arrays:
+
+[[a b c],[d, e ,f]] - this matrix has two rows and three columns.
+
+A vector is a matrix with one column and many rows.
+
+Thus vectors are a subset of matrices.
+
+
+Addition and Scalar Multiplication:
+
+Addition and subtraction are element-wise, so we can simply add or subtract each corresponding element:
