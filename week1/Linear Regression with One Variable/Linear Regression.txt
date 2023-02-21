@@ -1,1 +1,0 @@
-Linear Regression predicts a real-valued output based on an input value.

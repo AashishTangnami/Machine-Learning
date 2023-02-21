@@ -1,7 +1,0 @@
-Unsupervised Learning - It allows us to approach problems with little or no idea what our results should look like. We can derive structure from data where we don't necessarily know the effect of the variables.
-    The structure can be derieved by the clustering the data based on relationships among the variables in the data.
-    There in no feedback based on the prediciton of results.
-
-    Clustering:- Collection of 1 million different genes, and find a way to automatically group these genes into groups that are somehow similar or related by different variables, such as  lifespan, location, roles, and so on.
-
-    Non-Clustering:- The "cocktail party algorithm", allows you to find structure in a chaotic environment. (i.e. identifying individual voices and music from a mesh of sounds at a cocktail party.)
